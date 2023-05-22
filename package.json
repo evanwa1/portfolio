@@ -6,7 +6,8 @@
   "homepage": "https://evanwa1.github.io/3D_Portfolio",
   "scripts": {
     "dev": "vite",
-    "deploy": "vite build && gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

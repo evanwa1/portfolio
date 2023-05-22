@@ -32,6 +32,9 @@ import {
   php,
   sql,
   vscode,
+  mymarketplace,
+  chatroom,
+  calendar,
 } from "../assets";
 
 export const navLinks = [
@@ -113,8 +116,6 @@ const technologies = [
     name: "Visual Studio Code",
     icon: vscode,
   },
-
-
 ];
 
 const experiences = [
@@ -188,67 +189,79 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MyMarketplace",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Digital marketplace where users can buy and sell content, similar to other online marketplaces, with features inspired by popular social media platforms like Instagram and Facebook.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "php",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: myMarketplace,
+    source_code_link: "https://github.com/evanwa1/MyMarketplace",
   },
   {
-    name: "Job IT",
+    name: "Online Chatroom",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based chatroom enabling creation of private/public chat rooms and direct messaging for private communication. Users can password-protect rooms and manage user access through features such as kicking, banning, and unbanning.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "node.js",
         color: "pink-text-gradient",
       },
+      {
+        name: "socket.io",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: chatroom,
+    source_code_link: "https://github.com/evanwa1/Online-Chatroom",
   },
   {
-    name: "Trip Guide",
+    name: "Digital Calendar",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application allowing efficient schedule management through personalized calendars. Users can easily create, edit, and delete events. Account creation and sign-in functionality ensures access to schedules even after closing the page.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "php",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "sql",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: calendar,
+    source_code_link: "https://github.com/evanwa1/Digital-Calendar",
   },
 ];
 
