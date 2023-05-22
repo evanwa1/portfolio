@@ -38,6 +38,9 @@ import washu from "./company/washu.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import mymarketplace from "./mymarketplace.png";
+import calendar from "./calendar.png";
+import chatroom from "./chatroom.png";
 
 export {
   logo,
