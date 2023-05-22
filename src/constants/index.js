@@ -210,7 +210,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: myMarketplace,
+    image: mymarketplace,
     source_code_link: "https://github.com/evanwa1/MyMarketplace",
   },
   {
