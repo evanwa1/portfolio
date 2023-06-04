@@ -236,7 +236,7 @@ const projects = [
       },
     ],
     image: chatroom,
-    source_code_link: "https://github.com/evanwa1/Online-Chatroom",
+    source_code_link: "https://github.com/ewashington1/Online-Chatroom",
   },
   {
     name: "Digital Calendar",
