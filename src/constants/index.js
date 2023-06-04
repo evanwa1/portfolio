@@ -261,7 +261,7 @@ const projects = [
       },
     ],
     image: calendar,
-    source_code_link: "https://github.com/evanwa1/Digital-Calendar",
+    source_code_link: "https://github.com/ewashington1/Digital-Calendar",
   },
 ];
 
