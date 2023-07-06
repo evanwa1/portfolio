@@ -35,6 +35,8 @@ import {
   mymarketplace,
   chatroom,
   calendar,
+  mymovies,
+  firebase,
 } from "../assets";
 
 export const navLinks = [
@@ -115,6 +117,10 @@ const technologies = [
   {
     name: "Visual Studio Code",
     icon: vscode,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
 ];
 
@@ -211,7 +217,34 @@ const projects = [
       },
     ],
     image: mymarketplace,
-    source_code_link: "https://github.com/evanwa1/MyMarketplace",
+    source_code_link: "https://github.com/ewashington1/MyMarketplace",
+    live_link: "http://ec2-3-21-37-47.us-east-2.compute.amazonaws.com:8000/",
+  },
+  {
+    name: "MyMovies",
+    description:
+      "Web application that utilizes The Movie Database API, allowing users to create accounts, rate movies, and add movies to their watchlists. This app also has a popular and trending section, helping users find movies to enjoy.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase/nosql",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: mymovies,
+    source_code_link: "https://github.com/ewashington1/MyMovies",
+    live_link: "https://mymovies-ewashington1.vercel.app/",
   },
   {
     name: "Online Chatroom",
@@ -237,6 +270,7 @@ const projects = [
     ],
     image: chatroom,
     source_code_link: "https://github.com/ewashington1/Online-Chatroom",
+    live_link: "http://ec2-3-21-37-47.us-east-2.compute.amazonaws.com:3456/",
   },
   {
     name: "Digital Calendar",
@@ -262,7 +296,9 @@ const projects = [
     ],
     image: calendar,
     source_code_link: "https://github.com/ewashington1/Digital-Calendar",
+    live_link: "http://ec2-3-21-37-47.us-east-2.compute.amazonaws.com/~evanmutaz/calendar/calendar.html",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

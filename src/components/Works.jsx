@@ -5,6 +5,7 @@ import { github } from "../assets";
 import SectionWrapper from "./../hoc/SectionWrapper";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "./../utils/motion";
+import { link } from "../assets";
 
 const ProjectCard = ({
   index,
@@ -13,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -39,6 +41,16 @@ const ProjectCard = ({
                 src={github}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+            <div
+              onClick={() => window.open(live_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex ml-1 justify-center items-center cursor-pointer"
+            >
+              <img
+                src={link}
+                alt="link"
+                className="w-1/2 h-1/2 invert object-contain"
               />
             </div>
           </div>

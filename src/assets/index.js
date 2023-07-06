@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import rocket from "./rocket.png";
+import link from "./link.svg"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -26,6 +28,7 @@ import laravel from "./tech/laravel.png";
 import php from "./tech/php.png";
 import sql from "./tech/sql.png";
 import vscode from "./tech/vscode.png";
+import firebase from "./tech/firebase.jpg"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -41,6 +44,7 @@ import tripguide from "./tripguide.png";
 import mymarketplace from "./mymarketplace.png";
 import calendar from "./calendar.png";
 import chatroom from "./chatroom.png";
+import mymovies from "./mymovies.png";
 
 export {
   logo,
@@ -83,4 +87,8 @@ export {
   mymarketplace,
   chatroom,
   calendar,
+  mymovies,
+  rocket,
+  link,
+  firebase
 };
