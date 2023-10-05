@@ -37,6 +37,18 @@ import {
   calendar,
   mymovies,
   firebase,
+  i4software,
+  tunein,
+  nextjs,
+  aws,
+  linux,
+  mysql,
+  postgresql,
+  prisma,
+  python,
+  swift,
+  reactnative,
+  c,
 } from "../assets";
 
 export const navLinks = [
@@ -64,11 +76,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Game Development",
+    title: "Cybersecurity",
     icon: backend,
   },
   {
-    title: "Graphic Design",
+    title: "Product Management",
     icon: backend,
   },
 ];
@@ -106,22 +118,66 @@ const technologies = [
     name: "Laravel",
     icon: laravel,
   },
-  {
-    name: "PHP",
-    icon: php,
-  },
+  // {
+  //   name: "PHP",
+  //   icon: php,
+  // },
   {
     name: "SQL",
     icon: sql,
   },
+  // {
+  //   name: "Visual Studio Code",
+  //   icon: vscode,
+  // },
+  // {
+  //   name: "Firebase",
+  //   icon: firebase,
+  // },
+  // {
+  //   name: "Next.js",
+  //   icon: nextjs,
+  // },
+  // {
+  //   name: "node",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "AWS",
+  //   icon: aws,
+  // },
+  // {
+  //   name: "Linux",
+  //   icon: linux,
+  // },
+  // {
+  //   name: "mysql",
+  //   icon: mysql,
+  // },
+  // {
+  //   name: "",
+  //   icon: postgresql,
+  // },
+  // {
+  //   name: "",
+  //   icon: prisma,
+  // },
   {
-    name: "Visual Studio Code",
-    icon: vscode,
+    name: "Python",
+    icon: python,
   },
-  {
-    name: "Firebase",
-    icon: firebase,
-  },
+  // {
+  //   name: "",
+  //   icon: swift,
+  // },
+  // {
+  //   name: "",
+  //   icon: c,
+  // },
+  // {
+  //   name: "",
+  //   icon: reactnative,
+  // },
 ];
 
 const experiences = [
@@ -164,6 +220,18 @@ const experiences = [
       "Reinforced my knowledge of data structures and algorithms through teaching, grading, and reviewing.",
     ],
   },
+  {
+    title: "Software Development Engineering Intern",
+    company_name: "i4software",
+    icon: i4software,
+    iconBg: "#ffffff",
+    date: "Jul 2023 - Sep 2023",
+    points: [
+      "Led a team of 5 in the development process of 5 mobile apps; handled task assignments, technological guidance, and GitHub procedures. Utilized agile methodologies and the software development lifecycle (SDLC).",
+      "Engaged in three rapid development cycles as part of a 25-member team, contributing to design, coding, testing, and feedback stages.",
+      "Shipped 17 MVP mobile applications as a team on a one-day deadline using prompt engineering with GPT-4.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -194,6 +262,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "TuneIn",
+    description:
+      "Music-based social platform that allows users to rate music, discover new songs and artists, create playlists, and connect with others through profiles and feeds while offering integration with popular streaming services and various additional features.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "spotify api",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: tunein,
+    source_code_link: "https://github.com/ewashington1/tunein",
+  },
   {
     name: "MyMarketplace",
     description:
@@ -296,9 +389,9 @@ const projects = [
     ],
     image: calendar,
     source_code_link: "https://github.com/ewashington1/Digital-Calendar",
-    live_link: "http://ec2-3-21-37-47.us-east-2.compute.amazonaws.com/~evanmutaz/calendar/calendar.html",
+    live_link:
+      "http://ec2-3-21-37-47.us-east-2.compute.amazonaws.com/~evanmutaz/calendar/calendar.html",
   },
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

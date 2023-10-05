@@ -39,13 +39,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm currently a rising Junior studying at Washington University in St.
-        Louis. I particularly love learning about building websites (frontend
-        and backend), but I also have an interest in game development and
-        design, as I used to play videos game often and I was always curious
-        about how they were made. I thrive in a fast-paced and collaborative
-        environment, so I'm excited to begin working on complex projects in a
-        software development role.
+        I'm currently a Junior studying at Washington University in St. Louis. I
+        particularly love learning about building websites and mobile
+        applications (frontend and backend), but I also have an interest in
+        low-level programming, cybersecurity, and product management. I thrive
+        in a fast-paced and collaborative environment, so I'm excited to begin
+        working on complex projects in a software development role.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
